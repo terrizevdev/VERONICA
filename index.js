@@ -8,7 +8,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const sessionPath = path.join(__dirname, 'session/creds.json');
 const tempDir = path.join(__dirname, '.temp_bot_update');
-const repoURL = 'https://github.com/Danscot/senku-xmd';
+const repoURL = 'https://github.com/terrizevdev/VERONICA';
 
 function sessionExists() {
     try {
